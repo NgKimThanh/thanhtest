@@ -10,4 +10,3 @@ IPipeLine<PlusNumberInput, int> pipeLine = new PipeLine<PlusNumberInput, Validat
     .AddNextStage(input => new PlusNumberStage().Process(input));
 
 Console.WriteLine(pipeLine.Process(baseInput));
-Console.WriteLine(pipeLine.Process(baseInput));
